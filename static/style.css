@@ -1,0 +1,177 @@
+
+html {
+	font-size:     12px;	
+}
+
+body {
+	min-width:         80%;
+	max-width: 		   90%;
+	margin:        75px auto 90px auto;
+}
+
+body, p, h1, h2, h3, h4, h5, h6 {
+	font-family:   verdana, arial, helvetica, sans-serif;
+	color:         #999;
+	font-size:     12px;	
+	font-weight:   normal;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0.5em auto;
+}
+
+
+a {
+	color:           #333;
+	font-weight:     bold;
+	text-decoration: none;
+}
+
+a:visited {
+	color:         #663300;
+}
+
+a:hover {
+	color:         #D69265;
+}
+
+
+h1 {
+	font-size: 125%;
+	letter-spacing: 0.25em;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+h2 {
+	font-weight: bold;
+	color: #333;
+	padding-right: 3em;
+	text-align: right;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #EEE;
+}
+
+
+
+p#credits {
+	text-align: center;
+	padding: 7em 3em 0 3em;
+	margin: 0;
+	clear: both;
+}
+
+p#contacts {
+
+	margin-top: 7em;
+	clear: both;
+}
+
+
+
+div#header {
+	border-bottom: 1px solid #CCC;
+	padding: 7px 13px 7px 13px;
+	background: #EEE;
+	margin: auto 0px 20px 0px;
+}
+
+div#intervals {
+	margin: auto -4em 4em -4em;
+	
+}
+
+div#header h1 {
+	letter-spacing: inherit;
+	padding: 0;
+	padding-left: 2px;
+	margin: 0;
+	font-weight: bold;
+	float: left;
+}
+
+div#header div.inside {
+	padding: 0 3em;
+	text-align: right;
+	font-weight: bold;
+}
+
+div#intervals div.inside {
+	padding: 0 3em;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+div#header a, div.nav a {
+	color: #999;
+}
+
+div#header a:hover, div.nav a:hover {
+	color: #333;
+}
+
+div#header span, div.nav span {
+	color: #333;
+}
+
+
+
+
+
+
+
+div#listings {
+}
+
+div#listings div.inside {
+}
+
+div#listings table {
+	width: 100%;
+}
+
+
+div#listings h4 {
+	font-size: 110%;
+	margin: 0.5em inherit;
+}
+
+
+
+
+td {
+	vertical-align: top;
+	border-bottom: 1px solid #EEE;
+	padding-top:   0.3em;
+}
+
+td.rank {
+	font-size: 125%;
+	font-weight: bold;
+	text-align: right;
+	padding-right: 1em;
+	padding-top: 0.8em;
+	height: 4em;
+}
+
+td.desc {
+	padding-bottom: 2em;
+}
+
+
+th {
+	vertical-align: middle;
+	border-bottom: 1px solid #EEE;
+	padding-top:   0.3em;
+	padding-bottom: 0.3em;
+}
+
+th.desc {
+	text-align: left;
+	font-size: 14px;
+}
+
+
+
+
